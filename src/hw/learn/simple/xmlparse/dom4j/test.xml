@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<allresource host="192.168.16.111" remote="192.168.16.111"> 
+  <resourcenum>499</resourcenum>  
+  <resourceitem> 
+    <id>2</id>  
+    <title>《实数》复习d.doc</title>  
+    <keywords>实数复习，期中复习</keywords>  
+    <kind>doc</kind>  
+    <describe>期中复习训练题</describe>  
+    <date>2008-6-18 20:50:01</date>  
+    <url>http://192.168.16.111:8080/resources/《实数》复习d.doc</url>  
+    <author>胡克林</author>  
+    <publisher>历城二中</publisher> 
+  </resourceitem>  
+  <resourceitem> 
+    <id>3</id>  
+    <title>《轴对称图形》教学设计</title>  
+    <keywords>轴对称图形，平面几何图形</keywords>  
+    <kind>doc</kind>  
+    <describe>认识轴对称图形，知道轴对称图形的含义，能够找出轴对称图形的对称轴</describe>  
+    <date>2008-6-18 20:55:10</date>  
+    <url>http://192.168.16.111:8080/resources/《轴对称图形》教学设计.doc</url>  
+    <author>胡克林</author>  
+    <publisher>历城二中</publisher> 
+  </resourceitem>  
+ </allresource>

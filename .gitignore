@@ -1,0 +1,6 @@
+/build/
+/.settings
+/.git
+*.war
+*.jar
+*.ear

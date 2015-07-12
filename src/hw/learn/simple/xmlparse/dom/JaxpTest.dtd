@@ -1,0 +1,20 @@
+<!ELEMENT classes (java班,net班,php班,ios班)>
+<!ELEMENT java班 (teachers?,students?)>
+<!ELEMENT net班 (teachers?,students?)>
+<!ELEMENT php班 (teachers?,students?)>
+<!ELEMENT ios班 (teachers?,students?)>
+<!ELEMENT teachers (teacher*)>
+<!ELEMENT teacher EMPTY>
+<!ELEMENT students (student*)>
+<!ELEMENT student (name,sex,age)>
+<!ATTLIST java班 name CDATA #IMPLIED>
+<!ATTLIST net班 name CDATA #IMPLIED>
+<!ATTLIST php班 name CDATA #IMPLIED>
+<!ATTLIST ios班 name CDATA #IMPLIED>
+<!ATTLIST teacher name CDATA #IMPLIED>
+<!ATTLIST teacher sex CDATA #IMPLIED>
+<!ATTLIST teacher age CDATA #IMPLIED>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT sex (#PCDATA)>
+<!ELEMENT age (#PCDATA)>
+<!ATTLIST student id ID #IMPLIED>

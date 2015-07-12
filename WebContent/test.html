@@ -1,0 +1,28 @@
+<script type="text/javascript" charset="utf-8">
+    //最简单例子
+    Number.prototype.add = function(num) {
+        return (this + num);
+    };
+    alert((3).add(15)); //弹出18
+
+    Boolean.prototype.rev = function() {
+        return (!this);
+    };
+    alert((true).rev()); //弹出false
+    
+    //已有方法的实现和增强
+    Array.push(new_element);
+　　//作用：在数组末尾加入一个新的元素
+　　Array.prototype.push = function(new_element){
+         this[this.length]=new_element;
+         return this.length;
+     }
+　　//让我们进一步来增强他，让他可以一次增加多个元素！
+　　Array.prototype.pushPro = function() {
+         var currentLength = this.length;
+         for (var i = 0; i < arguments.length; i++) {
+             this[currentLength + i] = arguments[i];
+         }
+         return this.length;
+     }
+</script>
